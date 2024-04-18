@@ -12,7 +12,7 @@ const Sidebar = () => {
       <div className="flex flex-col gap-6">
         {SIDEBAR_LINKS.map((link) => {
           const isActive =
-            pathName === link.route || pathName.startsWith(link.route);
+            pathName === link.route || pathName.startsWith(`${link.route}/`);
 
           return (
             <Link
