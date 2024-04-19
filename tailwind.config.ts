@@ -31,6 +31,14 @@ const config = {
         },
         blueish:{
           1:'#085768',
+          2:'#30D5C8',
+        },
+        green:{
+          1:'#32CD32',
+        },
+        yellow:{
+          1:'#FFA500',
+          2:'#FFD700',
         }
       },
         backgroundImage: {
