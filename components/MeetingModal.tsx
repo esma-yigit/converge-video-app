@@ -19,9 +19,9 @@ interface MeetingModalProps {
   buttonText: string;
   handleClick: () => void;
   children?: React.ReactNode;
-  img: string;
-  buttonIcon: string;
-  className: string;
+  img?: string;
+  buttonIcon?: string;
+  className?: string;
 }
 
 const MeetingModal = ({
