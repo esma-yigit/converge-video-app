@@ -1,5 +1,14 @@
 import StreamClientProvider from "@/providers/StreamClientProvider";
+import { Metadata } from "next";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "Converge App",
+  description: "Video calling app",
+  icons: {
+    icon: "/icons/logo.svg",
+  },
+};
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
